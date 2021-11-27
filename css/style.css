@@ -1,0 +1,104 @@
+body {
+    background-color: whitesmoke;
+    /*background-image: url("../images/bg.svg");*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::selection {
+    background: khaki; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: khaki; /* Gecko Browsers */
+  }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.splash-vid {
+    vertical-align: middle;
+    object-position:center;
+    width: 100%;
+
+}
+
+.tt_bg {
+    background-image: url("../images/Trent_Tisha.png");
+    background-color: crimson;
+    background-size: 100%;
+    background-position-y: bottom;
+    }
+
+
+    .ph1_bg {
+        background-image: url("https://images.unsplash.com/photo-1596757273507-963901ba2df9");
+        background-color: greenyellow;
+        background-size: 100%;
+        background-position-y: center;
+    }
+
+    .ph2_bg {
+        background-image: url("https://images.unsplash.com/photo-1618270707842-748e8faafa3c");
+        background-color: pink;
+        background-size: 100%;
+        background-position-y: center;
+    }
+
+
+
+    .fb2_bg {
+        background-image: url("https://images.unsplash.com/photo-1524178232363-1fb2b075b655");
+        background-color: lightgoldenrodyellow;
+        background-size: 100%;
+        background-position-y: center;
+    }
+
+    .fb3_bg {
+        background-image: url("https://images.unsplash.com/photo-1564846824172-dee7b0a26785");
+        background-color: lightskyblue;
+        background-size: 100%;
+        background-position-y: center;
+    }
+
+    .fb4_bg {
+        background-image: url("https://images.unsplash.com/photo-1535191595495-d3222b2eda44");
+        background-color: sandybrown;
+        background-size: 100%;
+        background-position-y: center;
+    }
+
+    .fb5_bg {
+        background-image: url("https://images.unsplash.com/photo-1602237192870-9bee73ab16a3");
+        background-color:yellowgreen;
+        background-size: 100%;
+        background-position-y: center;
+    }
+
+    .fb6_bg {
+        background-image: url("https://images.unsplash.com/photo-1472745433479-4556f22e32c2");
+        background-color: sandybrown;
+        background-size: 100%;
+        background-position-y: center;
+    }
+    
+    .high {
+        background-color: crimson;
+        line-height: 2.5;
+    }
+    .medium {
+        background-color: darksalmon;
+        line-height: 2.5;
+    }
+    .low {
+        background-color: royalblue;
+        line-height: 2.5;
+    }
+    .in-dev {
+        background-color: mediumspringgreen;
+        color: black;
+        line-height: 2.5;
+    }
