@@ -26,13 +26,26 @@ a {
 
 }
 
-.tt_bg {
-    background-image: url("../images/Trent_Tisha.png");
-    background-color: crimson;
-    background-size: 100%;
-    background-position-y: bottom;
+    .tt_bg {
+        background-image: url("../images/Trent_Tisha.png");
+        background-color: crimson;
+        background-size: 100%;
+        background-position-y: bottom;
     }
 
+    .ue_bg {
+        background-image: url("../images/unrealengine.jpg");
+        background-color: violet;
+        background-size: 100%;
+        background-position-y: bottom;
+    }
+    
+    .sol_bg {
+        background-image: url("../images/solana.jpg");
+        background-color: violet;
+        background-size: 100%;
+        background-position-y: center;
+    }
 
     .ph1_bg {
         background-image: url("https://images.unsplash.com/photo-1596757273507-963901ba2df9");
