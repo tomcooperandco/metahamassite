@@ -47,6 +47,14 @@ a {
         background-position-y: center;
     }
 
+    .ellis_bg {
+        background-image: url("../images/Ellis_Island.svg");
+        background-color: turquoise;
+        background-size: 100%;
+        background-position-y: center;
+    }
+    
+
     .ph1_bg {
         background-image: url("https://images.unsplash.com/photo-1596757273507-963901ba2df9");
         background-color: greenyellow;
