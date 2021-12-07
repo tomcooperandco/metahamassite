@@ -105,6 +105,27 @@ a {
         background-size: 100%;
         background-position-y: center;
     }
+
+    .b1_bg {
+        background-image: url("../images/b01/clubhouse.jpg");
+        background-color: lightskyblue;
+        background-size: 100%;
+        background-position-y: center;
+    }
+
+    .b1nft1_bg {
+        background-image: url("../images/b01/1.jpg");
+        background-color: lightskyblue;
+        background-size: 100%;
+        background-position-y: center;
+    }
+
+    .b1nft2_bg {
+        background-image: url("../images/b01/2.jpg");
+        background-color: lightskyblue;
+        background-size: 100%;
+        background-position-y: center;
+    }
     
     .high {
         background-color: crimson;
