@@ -6,6 +6,11 @@ body {
     background-size: cover;
 }
 
+h2 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 ::selection {
     background: khaki; /* WebKit/Blink Browsers */
   }
