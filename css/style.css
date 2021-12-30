@@ -53,12 +53,18 @@ a {
     }
 
     .ellis_bg {
-        background-image: url("../images/Ellis_Island.svg");
+        background-image: url("../images/Ellis_Island_0_2_0.svg");
         background-color: turquoise;
         background-size: 100%;
         background-position-y: center;
     }
     
+    .zwei_bg {
+        background-image: url("../images/Zwei_Island_0_2_0.svg");
+        background-color: turquoise;
+        background-size: 100%;
+        background-position-y: center;
+    }
 
     .ph1_bg {
         background-image: url("https://images.unsplash.com/photo-1596757273507-963901ba2df9");
