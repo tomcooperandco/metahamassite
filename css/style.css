@@ -132,6 +132,41 @@ a {
         background-position-y: center;
     }
 
+    .b1nft3_bg {
+        background-image: url("https://www.arweave.net/9UoQZ7zIaS4hb3Z_v4EgL5GYz_C4Ee9d55-FJIO-C_o?ext=PNG");
+        background-color: lightskyblue;
+        background-size: 100%;
+        background-position-y: center;
+    }
+
+    .b1nft4_bg {
+        background-image: url("https://www.arweave.net/HNY8Yz6uAutc4CE1tAIEgL5gLMwefUo54DTnLN7U-T4?ext=PNG");
+        background-color: lightskyblue;
+        background-size: 100%;
+        background-position-y: center;
+    }
+   
+    .b1nft5_bg {
+        background-image: url("https://www.arweave.net/OYPLbnYr6r35QDlY3J_fv81xLlK4DSSAa26Pc9GPHsI?ext=PNG");
+        background-color: lightskyblue;
+        background-size: 100%;
+        background-position-y: center;
+    } 
+
+    .b1nft6_bg {
+        background-image: url("https://www.arweave.net/cO6GdLwdkXEmpB7jpzRySjLjfr7iURy1Nz1gjPYftiU?ext=PNG");
+        background-color: lightskyblue;
+        background-size: 100%;
+        background-position-y: center;
+    }
+ 
+    .b1nft7_bg {
+        background-image: url("https://www.arweave.net/9W1Qnq1qosEuGO_O7LPFXMrN_clQNYRLTSGofT46JE0?ext=PNG");
+        background-color: lightskyblue;
+        background-size: 100%;
+        background-position-y: center;
+    }
+
     .video-container{
         width: 100%;
         height: 56.25%;
