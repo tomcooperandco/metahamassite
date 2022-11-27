@@ -117,6 +117,13 @@ a {
         background-position-y: center;
     }
 
+    .fb7_bg {
+        background-image: url("https://images.unsplash.com/photo-1521410195597-69e2218fcee8");
+        background-color: lightskyblue;
+        background-size: 100%;
+        background-position-y: center;
+    }
+
     .b1_bg {
         background-image: url("../images/b01/clubhouse.jpg");
         background-color: lightskyblue;
