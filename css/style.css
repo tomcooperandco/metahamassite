@@ -25,3 +25,13 @@ a {
 .row {
   --bs-gutter-x: 0rem;
 }
+
+.appear:hover{
+  opacity: 1;
+}
+
+.appear {
+  opacity: 0;
+  transition: .5s ease;
+  
+}
