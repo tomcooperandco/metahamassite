@@ -173,17 +173,113 @@
             <image width="800" height="403" x="2000" y="3015" xlink:href="images/lots/sea.png"></image>
 
             <!-- Links -->
-            <a xlink:href="for_sale.html" target="_blank">
-              <path d="M800 201 L1200 402 L800 603 L400 402 Z" style="fill:rgba(0, 0, 0, 0.5);stroke:red;stroke-width:10;" class="appear"></path>
-            </a>
-            <a xlink:href="for_sale.html" target="_blank">
-              <path d="M1600 201 L2000 402 L1600 603 L1200 402 Z" style="fill:rgba(0, 0, 0, 0.5);stroke:red;stroke-width:10;" class="appear"></path>
-            </a>
-            <a xlink:href="for_sale.html" target="_blank">
-              <path d="M400 1608 L800 1809 L400 2010 L000 1809 Z" style="fill:rgba(0, 0, 0, 0.5);stroke:red;stroke-width:10;" class="appear"></path>
-            </a>
+            <path d="M800 201 L1200 402 L800 603 L400 402 Z"
+              style="fill:rgba(0, 0, 0, 0.5);stroke:red;stroke-width:10;"
+              class="appear"
+              data-toggle="modal"
+              data-target="#firstisland">
+            </path>
+            <path d="M1600 201 L2000 402 L1600 603 L1200 402 Z"
+              style="fill:rgba(0, 0, 0, 0.5);stroke:red;stroke-width:10;"
+              class="appear"
+              data-toggle="modal"
+              data-target="#catamaran">
+            </path>
+            <path d="M400 1608 L800 1809 L400 2010 L000 1809 Z"
+              style="fill:rgba(0, 0, 0, 0.5);stroke:red;stroke-width:10;"
+              class="appear"
+              data-toggle="modal"
+              data-target="#speedboat">
+            </path>
+            
           </svg>
-          <!-- <img src="images/lots/First Island.png"/> -->
+          <!-- Modals -->
+           <!-- Uno Island -->
+          <div class="modal fade" id="firstisland" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Uno Island</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body" style="text-align: left;">
+                  <img src="./images/lots/first_island.png" style="max-width: 100%;"/>
+                  <br>
+                  <br>
+                The first island in the Metahamas
+                <br><br>
+                It has a special covenant dictating that nothing can be built on the island and it must be left as-is.  You can of course drive your boat there, sunbathe, have a bbq, etc.
+                <br><br>
+                <b>Owner:</b> Tom Cooper 🇬🇧
+                <br><br>
+              </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-outline-secondary">View On Opensea</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dinghy Cat Modal -->
+          <div class="modal fade" id="catamaran" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Dinghy Cat</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body" style="text-align: left;">
+                  <img src="./images/lots/boat.png" style="max-width: 100%;"/>
+                  <br>
+                  <br>
+                  Own a dingy catamaran.  Jump onboard and have a sail!<br><br>
+                  You can choose 2 characters to display on this model.  They will move around the model from time to time.
+                <br><br>
+                <b>Owner:</b> Tom Cooper 🇬🇧
+                <br><br>
+              </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-outline-secondary">View On Opensea</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Speedboat Modal -->
+          <div class="modal fade" id="speedboat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Speedboat</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body" style="text-align: left;">
+                  <img src="./images/lots/speedboat.png" style="max-width: 100%;"/>
+                  <br>
+                  <br>
+                  A purple, pink and orange speed boat<br><br>
+                  You can choose 2 characters to display on this model.  They will move around the model from time to time.
+                <br><br>
+                <b>Owner:</b> Tom Cooper 🇬🇧
+                <br><br>
+              </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-outline-secondary">View On Opensea</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>
