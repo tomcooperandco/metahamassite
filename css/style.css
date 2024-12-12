@@ -22,6 +22,22 @@ a {
     text-decoration: none;
 }
 
+.svg-scroll-container {
+  width: 100%; /* Set to 100% of the viewport width or desired width */
+  height: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: auto; /* Disable vertical scrolling */
+  
+  background-color: whitesmoke; /* Optional, for better visualization */
+}
+
+.svg-scroll-container-1 {
+  width: 100%; /* Visible width */
+  overflow-x: auto;
+  overflow-y: hidden;
+  background-color: whitesmoke;
+}
+
 .maindisplay {
   --bs-gutter-x: 0rem;
 }
