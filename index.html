@@ -87,7 +87,10 @@
             <!-- viewbox="0 0 2400 4030" 
             imge is 4000w 4020h 
             -->
-            <svg xmlns="http://www.w3.org/2000/svg" viewbox="1000 0 2000 4020" width="1000" height="1005" overflow="scroll" >
+            
+            <svg xmlns="http://www.w3.org/2000/svg" 
+             overflow="auto">
+            <g transform="scale(0.25)">
               
               <!-- R1 [-201] -->
               <image width="800" height="403" x="-400" y="-201" xlink:href="images/lots/sea.png"></image>
@@ -266,8 +269,40 @@
                 data-toggle="modal"
                 data-target="#speedboat">
               </path>
-              
+            </g>
+
+            
             </svg>
+            <script>
+              function updateSVGDimensions() {
+                const svgElement = document.querySelector("svg");
+                const gElement = svgElement.querySelector("g");
+                if (!svgElement || !gElement) return;
+            
+                // Check the screen width
+                const screenWidth = window.innerWidth;
+            
+                // Determine scale based on screen width
+                const scale = screenWidth < 768 ? 0.2 : 0.5;
+            
+                // Set the new dimensions for the SVG
+                const originalWidth = 4000; // Replace with your SVG's original width
+                const originalHeight = 4020; // Replace with your SVG's original height
+                const newWidth = originalWidth * scale;
+                const newHeight = originalHeight * scale;
+            
+                // Apply the new dimensions
+                svgElement.setAttribute("width", newWidth);
+                svgElement.setAttribute("height", newHeight);
+            
+                // Update the transform attribute for the <g> element
+                gElement.setAttribute("transform", `scale(${scale})`);
+              }
+            
+              // Run the function on load and resize
+              window.addEventListener("resize", updateSVGDimensions);
+              window.addEventListener("load", updateSVGDimensions);
+            </script>
           
           <!-- Modals -->
            <!-- Uno Island -->
