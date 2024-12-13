@@ -22,6 +22,11 @@ a {
     text-decoration: none;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
 .svg-scroll-container {
   width: 100vw; /* Set to 100% of the viewport width or desired width */
   height: 100vh;
