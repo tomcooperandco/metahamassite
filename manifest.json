@@ -1,0 +1,21 @@
+{
+    "name": "Metahamas-App",
+    "short_name": "Metahamas",
+    "start_url": "https://metahamas.com/",
+    "theme_color": "#0e6eec",
+    "background_color": "#0e6eec",
+    "display": "standalone",
+    "icons":[
+      {
+        "src":"images/logo192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src":"images/logo512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  
+  }
