@@ -1,7 +1,7 @@
 {
   "description": "A test lot", 
   "external_url": "https://metahamas.com", 
-  "image": "https://metahamas.com/lots/b2/b4_detail_1.png", 
+  "image": "https://metahamas.com/lots/b4/b4_detail_1.png", 
   "name": "Lot A1",
   "attributes": [ {
     "trait_type": "Land Type", 
