@@ -1,0 +1,14 @@
+{
+  "description": "A test lot", 
+  "external_url": "https://metahamas.com", 
+  "image": "https://metahamas.com/lots/sea.png", 
+  "name": "Lot A1",
+  "attributes": [ {
+    "trait_type": "Land Type", 
+    "value": "Water"
+  }, 
+  {
+    "trait_type": "Habited", 
+    "value": "No"
+  } ]
+}
