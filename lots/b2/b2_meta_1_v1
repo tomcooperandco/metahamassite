@@ -1,7 +1,7 @@
 {
   "description": "This lot is a desert island.  It is the first island of the metahamas, known locally as Uno Island.  It has a covenant dictating that nothing can be built on the island and it must be left as-is. You can of course drive your boat there, sunbathe, have a bbq, etc.", 
   "external_url": "https://metahamas.com/lots/b2/b2.html", 
-  "image": "https://metahamas.com/lots/b4/b4_detail_1_v1.png", 
+  "image": "https://metahamas.com/lots/b2/b2_detail_1_v1.png", 
   "name": "Lot B2",
   "attributes": [ {
     "trait_type": "Version", 
@@ -9,19 +9,19 @@
   },
   {
     "trait_type": "North Facing View", 
-    "value": "https://metahamas.com/lots/b4/b4_detail_1_v1.png"
+    "value": "https://metahamas.com/lots/b2/b2_detail_1_v1.png"
   }, 
   {
     "trait_type": "East Facing View", 
-    "value": "https://metahamas.com/lots/b4/b4_detail_2_v1.png"
+    "value": "https://metahamas.com/lots/b2/b2_detail_2_v1.png"
   },
   {
     "trait_type": "South Facing View", 
-    "value": "https://metahamas.com/lots/b4/b4_detail_3_v1.png"
+    "value": "https://metahamas.com/lots/b2/b2_detail_3_v1.png"
   },
   {
     "trait_type": "West Facing View", 
-    "value": "https://metahamas.com/lots/b4/b4_detail_4_v1.png"
+    "value": "https://metahamas.com/lots/b2/b2_detail_4_v1.png"
   },
   {
     "trait_type": "Commissioned By", 
