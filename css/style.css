@@ -41,6 +41,11 @@ a {
   display: none;
 }
 
+.coordinates {
+  font-size: 13px;
+  fill: white;
+}
+
 .maindisplay {
   --bs-gutter-x: 0rem;
 }
